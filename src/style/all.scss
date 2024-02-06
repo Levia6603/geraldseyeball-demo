@@ -1,0 +1,56 @@
+@import "./css_reset";
+@import "./variable";
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1092px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  img {
+    width: 1200px;
+    // visibility: hidden;
+  }
+}
+.eye-left {
+  position: absolute;
+  width: 16px;
+  height: 8px;
+  background-color: #ffffff90;
+  left: 175px;
+  top: 196px;
+  visibility: hidden;
+}
+.eye-right {
+  position: absolute;
+  width: 16px;
+  height: 8px;
+  background-color: #ffffff90;
+  left: 212px;
+  top: 199px;
+  visibility: hidden;
+}
+.eyeball-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 10px;
+}
+.eyeball-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 10px;
+}
