@@ -164,7 +164,7 @@ body {
   position: absolute;
   width: 16px;
   height: 8px;
-  background-color: rgba(255, 255, 255, 0.5647058824);
+  background-color: #babe7c;
   left: 175px;
   top: 196px;
   visibility: hidden;
@@ -174,7 +174,7 @@ body {
   position: absolute;
   width: 16px;
   height: 8px;
-  background-color: rgba(255, 255, 255, 0.5647058824);
+  background-color: #babe7c;
   left: 212px;
   top: 199px;
   visibility: hidden;
@@ -182,9 +182,9 @@ body {
 
 .eye-top {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.5647058824);
+  background-color: #babe7c;
   width: 18px;
-  height: 10px;
+  height: 7px;
   left: 197px;
   top: 169px;
   visibility: hidden;
