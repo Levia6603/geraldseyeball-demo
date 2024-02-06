@@ -1,7 +1,9 @@
 const eyeLeft = document.querySelector(".eye-left");
 const eyeRight = document.querySelector(".eye-right");
+const eyeTop = document.querySelector(".eye-top");
 const eyeBallLeft = document.querySelector(".eyeball-left");
 const eyeBallRight = document.querySelector(".eyeball-right");
+const eyeBallTop = document.querySelector(".eyeball-top");
 
 window.addEventListener("mousemove", (e) => {
   leftPosition =
@@ -20,6 +22,7 @@ window.addEventListener("mousemove", (e) => {
   eyeBallRight.style = `left: ${leftPosition + 27}px; top: ${
     topPosition - 3
   }px;`;
+  eyesPosition(e, eyeTop, eyeBallTop);
 });
 function eyesPosition(mouse, eye, eyeball) {
   leftPosition =

@@ -17,6 +17,9 @@ body {
     width: 1200px;
     // visibility: hidden;
   }
+  .animation {
+    position: absolute;
+  }
 }
 .eye-left {
   position: absolute;
@@ -36,21 +39,21 @@ body {
   top: 199px;
   visibility: hidden;
 }
-.eyeball-left {
+.eye-top {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 10px;
+  background-color: #ffffff90;
+  width: 18px;
   height: 10px;
-  background-color: #000;
-  border-radius: 10px;
+  left: 197px;
+  top: 169px;
+  visibility: hidden;
 }
-.eyeball-right {
+.eyeball {
   position: absolute;
   top: 0;
   left: 0;
   width: 10px;
   height: 10px;
-  background-color: #000;
+  background-color: #151614;
   border-radius: 10px;
 }
